@@ -1,7 +1,7 @@
 {
   "name": "apollo-server-vercel",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
