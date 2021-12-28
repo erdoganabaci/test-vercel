@@ -24,7 +24,7 @@ const startApolloServer = async (app, httpServer) => {
   });
 
   await server.start();
-  server.applyMiddleware({ app });
+  server.applyMiddleware({ app, path: "/graphql" });
 };
 
 startApolloServer(app, httpServer);
